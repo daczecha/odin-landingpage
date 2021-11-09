@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.content{
+    width:80%;
+    display: flex;
+    padding: 16px;
+
+}
+
+header .content ul li a,
+main .hero .content .column.right p
+{
+    color:#e5e7eb;
+    font-size: 18px;
+}
+
+header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+header .content{
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .content h4{
+    color:#f9faf8;
+    font-size: 24px
+}
+
+header .content ul{
+    display: flex;
+    gap : 20px;
+}
+
+header .content ul li{
+    list-style: none
+}
+
+header .content ul li a{
+
+    text-decoration: none;
+}
+
+main .hero{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+main .hero .content{
+    padding: 100px 10px;
+}
+
+main .hero .content .column{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    padding: 45px 0;
+}
+
+main .hero .content .column.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6D717D;
+    color: white;
+}
+
+main .hero .content .column.right{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: flex-start;
+    justify-content: end;
+}
+
+
+main .hero .content .column.right h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+button{
+    background-color: #3882f6;
+    border: none;
+    padding:10px 30px;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+main .info{
+    display: flex;
+    justify-content: center;
+}
+
+main .info .content{
+    flex-direction: column;
+    align-items: center;
+    gap:40px;
+    padding: 40px;
+}
+
+main .info .content h3{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+}
+
+main .info .content .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:40px;
+}
+
+main .info .content .card-container .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+main .info .content .card-container .card div{
+    width:150px;
+    height:150px;
+    border:4px solid #3882f6;
+    border-radius: 10px;
+}
+
+main .info .content .card-container .card p{
+    text-align: center;
+    margin:10px 0;
+    font-size :14px;
+    color:#5a5c63;
+}
