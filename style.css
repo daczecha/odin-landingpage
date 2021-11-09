@@ -145,3 +145,33 @@ main .info .content .card-container .card p{
     font-size :14px;
     color:#5a5c63;
 }
+
+main .quote {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+main .quote .content{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+main .quote .content blockquote{
+    padding: 60px;
+    align-self: flex-start;
+}
+main .quote .content figcaption{
+    align-self: flex-end;
+    font-size:20px;
+    font-weight: bolder;    
+}
+
+
+main .quote .content blockquote p {
+    font-size: 36px;
+    font-weight: light;
+    color:#1f2937;
+}
